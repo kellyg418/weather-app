@@ -1,0 +1,19 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  text-align: center;
+}
