@@ -17,3 +17,17 @@ li:first-letter {
 footer {
   text-align: center;
 }
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .form-control {
+    width: 250px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+}
